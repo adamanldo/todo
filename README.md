@@ -15,6 +15,12 @@ Python 3.8.10
 >>> from django.core.management.utils import get_random_secret_key
 >>> print(get_random_secret_key())
 ```
+
+The `.env` file will look something like this (with your own secret key pasted in):
+```
+SECRET_KEY = cng#jvv3b1+p4c8el-tfy4@(h4l8(1p1!glod_6&jj2_!5s#4+
+```
+
 4. Create database migrations:
 ```
 python3 manage.py makemigrations
