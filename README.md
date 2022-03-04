@@ -18,7 +18,7 @@ Python 3.8.10
 
 The `.env` file will look something like this (with your own secret key pasted in):
 ```
-SECRET_KEY = cng#jvv3b1+p4c8el-tfy4@(h4l8(1p1!glod_6&jj2_!5s#4+
+SECRET_KEY = 'cng#jvv3b1+p4c8el-tfy4@(h4l8(1p1!glod_6&jj2_!5s#4+'
 ```
 
 4. Create database migrations:
